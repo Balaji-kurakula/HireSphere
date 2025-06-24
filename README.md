@@ -1,12 +1,30 @@
-# React + Vite
+Hiresphere is a modern, responsive job portal built with React.js, Supabase, Clerk Authentication, and Shadcn UI, offering a seamless experience for job seekers and recruiters. It supports real-time job listings, applications, and secure authentication with role-based routing.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+Features
+👥 Two user roles: Job Seeker and Recruiter
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🔐 Secure login & signup powered by Clerk Auth
 
-## Expanding the ESLint configuration
+📄 Real-time job listings & applications with Supabase
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+💼 Post, save, apply to jobs; track applications in real-time
+
+📱 Responsive UI with Tailwind CSS and Shadcn UI
+
+⚙️ Form validation with React Hook Form and Zod
+
+🔎 Job search and filtering by keyword & location
+
+🛠️ Tech Stack
+Frontend: React.js, Tailwind CSS, Shadcn UI
+
+Backend: Supabase (PostgreSQL + Auth + Realtime DB)
+
+Auth: Clerk.dev
+
+Validation: React Hook Form + Zod
+
+State Management: React Hooks
+
+Hosting: Vercel
