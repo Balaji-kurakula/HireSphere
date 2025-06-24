@@ -2,6 +2,7 @@
 Hiresphere is a modern, responsive job portal built with React.js, Supabase, Clerk Authentication, and Shadcn UI, offering a seamless experience for job seekers and recruiters. It supports real-time job listings, applications, and secure authentication with role-based routing.
 
 🚀 Features
+
      👥 Two user roles: Job Seeker and Recruiter
      
      🔐 Secure login & signup powered by Clerk Auth
@@ -15,8 +16,10 @@ Hiresphere is a modern, responsive job portal built with React.js, Supabase, Cle
      ⚙️ Form validation with React Hook Form and Zod
      
      🔎 Job search and filtering by keyword & location
+     
 
 🛠️ Tech Stack
+
      Frontend: React.js, Tailwind CSS, Shadcn UI
      
      Backend: Supabase (PostgreSQL + Auth + Realtime DB)
@@ -29,8 +32,11 @@ Hiresphere is a modern, responsive job portal built with React.js, Supabase, Cle
      
      Hosting: Vercel
 
+
 📂 Key Features by Role
+
      👨‍💼 Recruiters
+     
           Post new job listings
           
           Manage created jobs
@@ -38,6 +44,7 @@ Hiresphere is a modern, responsive job portal built with React.js, Supabase, Cle
           View applicants and application status
      
      👨‍🎓 Job Seekers
+     
           Search and filter jobs
           
           Apply to open positions
